@@ -1,0 +1,54 @@
+button{
+  display:inline-block;
+  text-align:right;
+  width:100px;
+  color:black;
+  font-size:20px;
+}
+#year{
+  margin-left:2px;
+}
+.c{
+  margin-left:2px;
+  color:red;
+}
+button{
+  margin-left:120px;
+}
+#d,#m,#y{
+  color:red;
+  text-align:center;
+  font-size:14px;
+  display:block;
+  height:5px;
+}
+#dd,#mm,#yy{
+  color:green;
+  text-align:center;
+  font-size:14px;
+  margin-top:-2px;
+  display:block;
+  height:5px;
+}
+h2{
+  text-align: center;
+  color:green;
+  background: #d4f3fb;
+}
+#demo{
+  background: #bcbdbe;
+  color:#e8073b;
+  text-align:center;
+}
+#demo1{
+  margin-left:5px;
+  font-size:19px;
+}
+.Age{
+ margin-top:200px;
+ margin-left:20%;
+ border:3px solid violet;
+ display:block;
+ height:auto;
+ width:340px;
+}
