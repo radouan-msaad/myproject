@@ -1,34 +1,44 @@
+.Age{
+ margin-top:0;
+ margin-left:0;
+ border:3px solid violet;
+ display:block;
+ height:auto;
+ width:974px;
+}
+h2{
+  font-size: 50px;
+}
+select{
+  height: 160px;
+  width: 165px;
+  font-size: 40px;
+}
+select:hover{
+  background: aqua;
+}
+option{
+  text-align: center;
+  font-size: 40px;
+}
+option:active{
+  background: pink;
+}
 button{
   display:inline-block;
-  text-align:right;
-  width:100px;
+  text-align:center;
+  width:500px;
   color:black;
-  font-size:20px;
+  height: 160px;
+  font-size:60px;
+  margin-left:220px;
+}
+button:active{
+  background: green;
+  box-shadow: 2px 2px 8px 2px green;
 }
 #year{
-  margin-left:2px;
-}
-.c{
-  margin-left:2px;
-  color:red;
-}
-button{
-  margin-left:120px;
-}
-#d,#m,#y{
-  color:red;
-  text-align:center;
-  font-size:14px;
-  display:block;
-  height:5px;
-}
-#dd,#mm,#yy{
-  color:green;
-  text-align:center;
-  font-size:14px;
-  margin-top:-2px;
-  display:block;
-  height:5px;
+  margin-left:220px;
 }
 h2{
   text-align: center;
@@ -36,19 +46,12 @@ h2{
   background: #d4f3fb;
 }
 #demo{
+  font-size: 60px;
   background: #bcbdbe;
   color:#e8073b;
   text-align:center;
 }
 #demo1{
   margin-left:5px;
-  font-size:19px;
-}
-.Age{
- margin-top:200px;
- margin-left:20%;
- border:3px solid violet;
- display:block;
- height:auto;
- width:340px;
+  font-size:60px;
 }
