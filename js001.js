@@ -64,7 +64,7 @@ function fun() {
       break;
     }
     var demo2=document.getElementById("demo1");
-    if((nbj1==31 && jour>=31)||(nbj1==30 && jour==31)||(nbj1==29 && jour>29)||(((year==annee)&&(mois>month))||((year==annee)&&(mois==month)&&(jour>day)))||(nbj1==28 && jour>28)){
+    if((nbj1==31 && jour>31)||(nbj1==30 && jour==31)||(nbj1==29 && jour>29)||(((year==annee)&&(mois>month))||((year==annee)&&(mois==month)&&(jour>day)))||(nbj1==28 && jour>28)){
 
       demo2.innerHTML="erreur";
       demo2.style.color="red";
